@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s  # How often Prometheus scrapes metrics
+
+scrape_configs:
+  - job_name: 'python-app-1'  # Name of the scrape job
+    static_configs:
+      - targets: ['python-app-1:5000']  # Target address where your Python application is running

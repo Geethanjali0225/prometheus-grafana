@@ -1,0 +1,23 @@
+version: '3'
+services:
+  python-app-1:
+    build:
+      context: .
+    ports:
+      - 5000:5000
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
+    depends_on:
+      - python-app-1
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - 3000:3000
+    depends_on:
+      - prometheus
