@@ -21,3 +21,5 @@ Ensure that Grafana can connect to Prometheus.
 Step 7: Create Dashboards:
 Create dashboards in Grafana by adding panels based on the metrics collected by Prometheus. Use the Prometheus data source to query and visualize the metrics.
 ![Screenshot from 2023-11-28 12-08-26](https://github.com/Geethanjali0225/prometheus-grafana/assets/134916336/b259b818-2c2d-499a-ad66-b84a5fd0ad20)
+![Screenshot from 2023-11-28 13-47-38](https://github.com/Geethanjali0225/prometheus-grafana/assets/134916336/935dcc98-bcdb-4ee5-8153-884696d13393)
+![Screenshot from 2023-11-28 13-48-21](https://github.com/Geethanjali0225/prometheus-grafana/assets/134916336/b809e40e-dd16-4a2e-b48a-74e00eb3f4da)
